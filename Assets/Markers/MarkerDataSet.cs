@@ -6,7 +6,7 @@ using UnityEngine;
 public class MarkerDataSet : MonoBehaviour
 {
     [SerializeField]
-    private TextMeshProUGUI txtClassroom, txtDatetimestart, txtDatetimeend, txtCoursename, txtDescription, txtNameteacher;
+    private TextMeshPro txtClassroom, txtDatetimestart, txtDatetimeend, txtCoursename, txtDescription, txtNameteacher;
     private void Start()
     {
         var dataGetter = new DataGetter();
